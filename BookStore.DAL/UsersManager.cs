@@ -162,5 +162,38 @@ namespace BookStore.DAL
                 };
             return null;
         }
+
+        /// <summary>
+        /// 根据权限编号进行查询
+        /// </summary>
+        /// <param name="rolesId"></param>
+        /// <returns></returns>
+        public List<Users> GetUsersByRolesId(int rolesId)
+        {
+            string sql = "select Id,Email,Password,NickName,Photo,CreateTime,RolesId from Users where RolesId = @RolesId";
+
+            SqlParameter[] param =
+            {
+                new SqlParameter("@RolesId",rolesId) 
+            };
+            var dt = SqlHelper.Query(sql, param);
+            var list = new List<Users>();
+            foreach (DataRow item in dt.Rows)
+            {
+                Users u = new Users()
+                {
+                    Id = int.Parse(item["Id"].ToString()),
+                    Email = item["Email"].ToString(),
+                    Password = item["Password"].ToString(),
+                    NickName = item["NickName"].ToString(),
+                    Photo = item["Photo"].ToString(),
+                    CreateTime = DateTime.Parse(item["CreateTime"].ToString()),
+                    RolesId = int.Parse(item["RolesId"].ToString())
+                };
+                list.Add(u);
+            }
+
+            return list;
+        }
     }
 }
