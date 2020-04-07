@@ -40,10 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopyrightManager.cs" />
+    <Compile Include="FriendLinkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolesManager.cs" />
+    <Compile Include="SeoManager.cs" />
     <Compile Include="SqlHelper.cs" />
+    <Compile Include="SystemMenuManager.cs" />
     <Compile Include="UsersManager.cs" />
+    <Compile Include="UsersPermissionManager.cs" />
+    <Compile Include="WebMenuManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookStore.Model\BookStore.Model.csproj">

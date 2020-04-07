@@ -41,9 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CopyrightService.cs" />
+    <Compile Include="FriendLinkService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolesService.cs" />
+    <Compile Include="SeoService.cs" />
+    <Compile Include="SystemMenuService.cs" />
+    <Compile Include="UsersPermissionService.cs" />
     <Compile Include="UsersService.cs" />
+    <Compile Include="WebMenuService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookStore.DAL\BookStore.DAL.csproj">
