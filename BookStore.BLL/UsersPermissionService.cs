@@ -10,7 +10,7 @@ namespace BookStore.BLL
 
         public int Add(UsersPermission model)
         {
-            return dal.Add(model)
+            return dal.Add(model);
 
         }
 

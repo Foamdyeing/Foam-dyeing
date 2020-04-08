@@ -67,10 +67,243 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admins\css\select.css" />
+    <Content Include="Admins\css\style.css" />
+    <Content Include="Admins\editor\kindeditor.js" />
+    <Content Include="Admins\editor\plugins\about.html" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_01.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_02.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_03.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_04.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_05.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_06.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_07.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_08.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_09.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_10.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_11.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_12.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_13.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_14.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_15.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_16.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_17.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_18.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_19.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_20.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_21.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_22.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_23.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_24.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_25.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_26.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_27.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_28.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_29.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_30.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_31.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_32.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_33.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_34.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_35.gif" />
+    <Content Include="Admins\editor\plugins\emoticons\etc_36.gif" />
+    <Content Include="Admins\editor\plugins\flash.html" />
+    <Content Include="Admins\editor\plugins\image.html" />
+    <Content Include="Admins\editor\plugins\link.html" />
+    <Content Include="Admins\editor\plugins\media.html" />
+    <Content Include="Admins\editor\plugins\plainpaste.html" />
+    <Content Include="Admins\editor\plugins\remote_image.html" />
+    <Content Include="Admins\editor\plugins\wordpaste.html" />
+    <Content Include="Admins\editor\skins\default.css" />
+    <Content Include="Admins\editor\skins\default.gif" />
+    <Content Include="Admins\editor\skins\div.gif" />
+    <Content Include="Admins\editor\skins\dl.gif" />
+    <Content Include="Admins\editor\skins\editor.css" />
+    <Content Include="Admins\editor\skins\ol.gif" />
+    <Content Include="Admins\editor\skins\p.gif" />
+    <Content Include="Admins\editor\skins\tinymce.css" />
+    <Content Include="Admins\editor\skins\tinymce.gif" />
+    <Content Include="Admins\editor\skins\ul.gif" />
+    <Content Include="Admins\images\001.jpg" />
+    <Content Include="Admins\images\404.png" />
+    <Content Include="Admins\images\add.png" />
+    <Content Include="Admins\images\btnbg.png" />
+    <Content Include="Admins\images\btnbg1.png" />
+    <Content Include="Admins\images\btnbg2.png" />
+    <Content Include="Admins\images\buttonbg.png" />
+    <Content Include="Admins\images\c01.png" />
+    <Content Include="Admins\images\c02.png" />
+    <Content Include="Admins\images\c03.png" />
+    <Content Include="Admins\images\cbg.png" />
+    <Content Include="Admins\images\clist.png" />
+    <Content Include="Admins\images\close.png" />
+    <Content Include="Admins\images\close1.png" />
+    <Content Include="Admins\images\cloud.png" />
+    <Content Include="Admins\images\d01.png" />
+    <Content Include="Admins\images\d02.png" />
+    <Content Include="Admins\images\d03.png" />
+    <Content Include="Admins\images\d04.png" />
+    <Content Include="Admins\images\d05.png" />
+    <Content Include="Admins\images\d06.png" />
+    <Content Include="Admins\images\d07.png" />
+    <Content Include="Admins\images\diskbg.png" />
+    <Content Include="Admins\images\dp.png" />
+    <Content Include="Admins\images\f01.png" />
+    <Content Include="Admins\images\f02.png" />
+    <Content Include="Admins\images\f03.png" />
+    <Content Include="Admins\images\f04.png" />
+    <Content Include="Admins\images\f05.png" />
+    <Content Include="Admins\images\f06.png" />
+    <Content Include="Admins\images\help.png" />
+    <Content Include="Admins\images\i01.png" />
+    <Content Include="Admins\images\i02.png" />
+    <Content Include="Admins\images\i03.png" />
+    <Content Include="Admins\images\i04.png" />
+    <Content Include="Admins\images\i05.png" />
+    <Content Include="Admins\images\i06.png" />
+    <Content Include="Admins\images\i07.png" />
+    <Content Include="Admins\images\i08.png" />
+    <Content Include="Admins\images\i09.png" />
+    <Content Include="Admins\images\iadd.png" />
+    <Content Include="Admins\images\ibtnbg.png" />
+    <Content Include="Admins\images\ico01.png" />
+    <Content Include="Admins\images\ico02.png" />
+    <Content Include="Admins\images\ico03.png" />
+    <Content Include="Admins\images\ico04.png" />
+    <Content Include="Admins\images\ico05.png" />
+    <Content Include="Admins\images\ico06.png" />
+    <Content Include="Admins\images\icon01.png" />
+    <Content Include="Admins\images\icon02.png" />
+    <Content Include="Admins\images\icon03.png" />
+    <Content Include="Admins\images\icon04.png" />
+    <Content Include="Admins\images\icon05.png" />
+    <Content Include="Admins\images\icon06.png" />
+    <Content Include="Admins\images\img01.png" />
+    <Content Include="Admins\images\img02.png" />
+    <Content Include="Admins\images\img03.png" />
+    <Content Include="Admins\images\img04.png" />
+    <Content Include="Admins\images\img05.png" />
+    <Content Include="Admins\images\img06.png" />
+    <Content Include="Admins\images\img07.png" />
+    <Content Include="Admins\images\img08.png" />
+    <Content Include="Admins\images\img09.png" />
+    <Content Include="Admins\images\img10.png" />
+    <Content Include="Admins\images\img11.png" />
+    <Content Include="Admins\images\img12.png" />
+    <Content Include="Admins\images\img13.png" />
+    <Content Include="Admins\images\img14.png" />
+    <Content Include="Admins\images\img15.png" />
+    <Content Include="Admins\images\inputbg.gif" />
+    <Content Include="Admins\images\itabbg.png" />
+    <Content Include="Admins\images\itabbg1.png" />
+    <Content Include="Admins\images\leftico.png" />
+    <Content Include="Admins\images\leftico01.png" />
+    <Content Include="Admins\images\leftico02.png" />
+    <Content Include="Admins\images\leftico03.png" />
+    <Content Include="Admins\images\leftico04.png" />
+    <Content Include="Admins\images\leftline.gif" />
+    <Content Include="Admins\images\leftmenubg.gif" />
+    <Content Include="Admins\images\lefttop.gif" />
+    <Content Include="Admins\images\libg.png" />
+    <Content Include="Admins\images\light.png" />
+    <Content Include="Admins\images\line.gif" />
+    <Content Include="Admins\images\line1.png" />
+    <Content Include="Admins\images\list.gif" />
+    <Content Include="Admins\images\list1.gif" />
+    <Content Include="Admins\images\list2.png" />
+    <Content Include="Admins\images\loginbg1.png" />
+    <Content Include="Admins\images\loginbg2.png" />
+    <Content Include="Admins\images\loginbg3.png" />
+    <Content Include="Admins\images\logininfo.png" />
+    <Content Include="Admins\images\loginlogo.png" />
+    <Content Include="Admins\images\loginpassword.png" />
+    <Content Include="Admins\images\loginsj.png" />
+    <Content Include="Admins\images\loginuser.png" />
+    <Content Include="Admins\images\logo.png" />
+    <Content Include="Admins\images\msg.png" />
+    <Content Include="Admins\images\navbg.png" />
+    <Content Include="Admins\images\next.gif" />
+    <Content Include="Admins\images\pre.gif" />
+    <Content Include="Admins\images\px.gif" />
+    <Content Include="Admins\images\righttop.gif" />
+    <Content Include="Admins\images\rlist.gif" />
+    <Content Include="Admins\images\search.png" />
+    <Content Include="Admins\images\sj.png" />
+    <Content Include="Admins\images\sun.png" />
+    <Content Include="Admins\images\t01.png" />
+    <Content Include="Admins\images\t02.png" />
+    <Content Include="Admins\images\t03.png" />
+    <Content Include="Admins\images\t04.png" />
+    <Content Include="Admins\images\t05.png" />
+    <Content Include="Admins\images\tbg.png" />
+    <Content Include="Admins\images\tcbg.gif" />
+    <Content Include="Admins\images\th.gif" />
+    <Content Include="Admins\images\ticon.png" />
+    <Content Include="Admins\images\time.png" />
+    <Content Include="Admins\images\toolbg.gif" />
+    <Content Include="Admins\images\topbg.gif" />
+    <Content Include="Admins\images\topleft.jpg" />
+    <Content Include="Admins\images\topright.jpg" />
+    <Content Include="Admins\images\ub1.png" />
+    <Content Include="Admins\images\uew_icon.png" />
+    <Content Include="Admins\images\uew_icon_hover.png" />
+    <Content Include="Admins\images\ulist.png" />
+    <Content Include="Admins\images\user.png" />
+    <Content Include="Admins\images\userbg.png" />
+    <Content Include="Admins\js\cloud.js" />
+    <Content Include="Admins\js\format+zh_CN,default,corechart.I.js" />
+    <Content Include="Admins\js\jquery.ba-resize.min.js" />
+    <Content Include="Admins\js\jquery.gvChart-1.0.1.min.js" />
+    <Content Include="Admins\js\jquery.idTabs.min.js" />
+    <Content Include="Admins\js\jquery.js" />
+    <Content Include="Admins\js\jsapi.js" />
+    <Content Include="Admins\js\PIE.htc" />
+    <Content Include="Admins\js\select-ui.min.js" />
+    <Content Include="Admins\Login.aspx" />
+    <Content Include="Admins\main\Index.aspx" />
+    <Content Include="Admins\main\Left.aspx" />
+    <Content Include="Admins\main\Main.aspx" />
+    <Content Include="Admins\main\Top.aspx" />
+    <Content Include="Admins\src\jquery.gvChart-1.0.1.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admins\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\main\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\main\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\main\Left.aspx.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\main\Left.aspx.designer.cs">
+      <DependentUpon>Left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\main\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\main\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admins\main\Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admins\main\Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
